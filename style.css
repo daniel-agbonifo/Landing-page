@@ -1,0 +1,76 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.4)), url(assets/Img.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+main h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 30px;   
+}
+
+main h2  a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main h1 {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    line-height: 40vh;
+    font-size: 50px;
+    
+}
+
+main p{
+    color: #fff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial sans-serif;
+    text-align: center;
+    line-height: 4vh;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 25vh;
+}
+
+.subscribe h3 {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.subscribe .email {
+    height: 3.5vh;
+    width: 30vh;
+    border-radius: 5px;
+}
+
+.submit {
+    cursor: pointer;
+    width: 30vh;
+    margin-left: 2vh;
+    background-color: rgba(248, 228, 154, 0.671);
+    height: 4vh;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vh;
+}
